@@ -1,0 +1,130 @@
+.wallet_container{
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.virtual_card{
+    background: linear-gradient(72.65deg, #2B455E 44.36%, rgba(6, 82, 152, 0.3) 95.76%);
+    width: 308px;
+    height: 130px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.virtual_card_content{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0px 8px;
+}
+.active_account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.active_account p{
+    font-size: 10px;
+    z-index: 1;
+    font-size: 700;
+    line-height: 12px;
+    font-family: lato;
+    margin-right: 8px;
+}
+.active_account img{
+    z-index: 1;
+    margin-left: 50px;
+    width: 41px;
+}
+.fund_btn{
+    width: 95px;
+    height: 32px;
+    font-size: 10px;
+    font-family: lato;
+    font-weight: 600;
+    
+    background: rgba(174, 217, 255, 0.5);
+    backdrop-filter: blur(2.5px);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 0px;
+    z-index: 1;
+    border: none;
+}
+
+.blur_card_one{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+top: 3px;
+left: 3px;
+
+
+
+
+}
+.blur_card_two{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+top: 15px;
+left: 10px;
+
+}
+.blur_card_three{
+position: absolute;
+width: 42px;
+height: 40px;
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+top: 30px;
+left: 20px;
+}
+.blur_card_one_bottom{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+bottom: 30px;
+right: 20px;
+}
+.blur_card_two_bottom{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+bottom: 15px;
+right: 10px;
+}
+.blur_card_three_bottom{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+bottom: 2px;
+right: 2px;
+}

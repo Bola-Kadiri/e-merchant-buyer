@@ -1,0 +1,43 @@
+.container {
+  height: 57px;
+  border-radius: 50px;
+  width: 460px;
+  max-width: 460px;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  background: var(--light-blue-10);
+  margin: 1.5rem 0;
+  gap: 0.4rem;
+}
+
+.merchant_active,
+.buyer_active {
+  background-color: var(--light-blue-base);
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  width: 230px;
+  color: var(--white);
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+
+.merchant_not_active,
+.buyer_not_active {
+  background-color: var(--light-blue-10);
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  width: 230px;
+  font-weight: 500;
+  color: #28293d;
+  transition: all 0.5s ease-in-out;
+}

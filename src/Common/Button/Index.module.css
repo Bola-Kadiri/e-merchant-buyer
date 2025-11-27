@@ -1,0 +1,16 @@
+.login_btn {
+  outline: 0;
+  border: 0;
+  height: 48px;
+  color: var(--white);
+  font-size: 1.2rem;
+  border-radius: 6px;
+  margin: 2.5rem 0 1rem 0;
+  font-weight: 500;
+  width: 100%;
+  background: linear-gradient(90.91deg, #2972b5 0.28%, #90e0fc 111.21%),
+    linear-gradient(0deg, #c4c4c4, #c4c4c4);
+}
+button {
+  font-family: "Poppins";
+}

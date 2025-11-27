@@ -1,0 +1,59 @@
+.input {
+  width: 100%;
+}
+.input_text {
+  border: 1px solid #dcdada;
+  width: 100%;
+  outline: 0;
+  border-radius: 8px;
+  color: #333;
+}
+.input_text::placeholder,
+.input_password_text::placeholder,
+.input_password::placeholder {
+  font-size: 1rem;
+  font-family: "Poppins";
+}
+.input:not(:first-of-type) {
+  margin-top: 4rem;
+}
+
+.password_input {
+  display: grid;
+  grid-template-columns: auto 43px;
+  border: 1px solid #dcdada;
+  overflow: hidden;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.icon_wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #f1f1f1;
+}
+
+.icon {
+  font-size: 1.35rem;
+  color: rgb(125, 125, 125);
+}
+
+.input_password_text,
+.input_password {
+  border: 0;
+  outline: 0;
+}
+
+.input_password_text,
+.input_password,
+.input_text {
+  padding: 0.83rem 0.83rem;
+  font-size: 0.95rem;
+  background-color: #f1f1f1;
+}

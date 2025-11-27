@@ -1,0 +1,443 @@
+
+.delivery_content{
+   width: 765px;
+  min-height: 95vh;
+   background-color: #fff;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.close{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.delivery_btn{
+    width: 422px;
+    height: 51px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    background: rgba(103, 159, 210, 0.14);
+    padding: 0px 5px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-family: Poppins;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.delivery_press{
+    width: 377px;
+    height: 45px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery_card{
+    width: 178px;
+    height: 45px;
+    background-color: #679FD2;
+    color: #fff;
+    font-family: poppins;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 19px;
+}
+.pay_delivery{
+    color: #838383;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 19px;
+}
+.virtual_card{
+    background: linear-gradient(72.65deg, #2B455E 44.36%, rgba(6, 82, 152, 0.3) 95.76%);
+    width: 308px;
+    height: 130px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.virtual_card_content{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0px 8px;
+}
+.active_account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.active_account p{
+    font-size: 10px;
+    z-index: 1;
+    font-size: 700;
+    line-height: 12px;
+    font-family: lato;
+    margin-right: 8px;
+}
+.active_account img{
+    z-index: 1;
+    margin-left: 50px;
+    width: 41px;
+}
+.fund_btn{
+    width: 95px;
+    height: 32px;
+    font-size: 10px;
+    font-family: lato;
+    font-weight: 600;
+    
+    background: rgba(174, 217, 255, 0.5);
+    backdrop-filter: blur(2.5px);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 0px;
+    z-index: 1;
+    border: none;
+}
+
+.blur_card_one{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+top: 3px;
+left: 3px;
+
+
+
+
+}
+.blur_card_two{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+top: 15px;
+left: 10px;
+
+}
+.blur_card_three{
+position: absolute;
+width: 42px;
+height: 40px;
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+top: 30px;
+left: 20px;
+}
+.blur_card_one_bottom{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+bottom: 30px;
+right: 20px;
+}
+.blur_card_two_bottom{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+bottom: 15px;
+right: 10px;
+}
+.blur_card_three_bottom{
+    position: absolute;
+width: 42px;
+height: 40px;
+
+background: rgba(0, 0, 0, 0.4);
+filter: blur(2px);
+bottom: 2px;
+right: 2px;
+}
+
+
+
+.checkout_form{
+    width: 472px;
+    height: 369px;
+   
+}
+
+
+.acc_no{
+    width: 218px;
+    height: 45px;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.input_control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input_control div span{
+    color: #000
+}
+.input_control label{
+    display: block;
+    margin-bottom: 5px;
+    color:  #28293D;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pay_obj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay_obj button{
+    width:  220px;
+    height: 45px;
+    font-family: lato;
+    border-radius: 5px;
+    background-color: #679FD2;
+    color: #fff;
+    border: none;
+}
+
+.single_product{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.single_content{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single_content_header{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.single_content_header p{
+    margin-left: 10px;
+}
+
+.product_description{
+    height: 576px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 10px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product_description > div{
+    width: 100%;
+}
+.product_description > p{
+    margin: 10px 0px;
+}
+.product_description p:last-child{
+   font-family: inter;
+   color: #888888;
+   font-size: 12px;
+   font-weight: 400;
+}
+
+.btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.btn_container > button{
+    width: 360px;
+    height: 57px;
+    background-color: #FFF;
+    border: none;
+    border: 1px solid #351347;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #351347;
+    cursor: pointer;
+    font-family: Lato;
+}
+.btn_container button:nth-child(2){
+  width: 360px;
+  height: 57px;
+  background-color: #679FD2;
+  font-family: Lato;
+  border-radius: 3px;
+  color: #FFF;
+  cursor: pointer;
+  border: none;
+}
+
+
+@media screen and (max-width: 980px){
+    .delivery_content{
+        width: 75%;
+        min-height: 95vh;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-y:  scroll;
+        position: relative;
+     }
+     .delivery_btn{
+        width: 80%;
+        height: 51px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        background: rgba(103, 159, 210, 0.14);
+        padding: 0px 5px;
+        margin-bottom: 20px;
+        font-size: 19px;
+        font-family: Poppins;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .delivery_card{
+        width: 178px;
+        height: 45px;
+        background-color: #679FD2;
+        color: #fff;
+        font-family: poppins;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        font-size: 14px;
+    }
+    .pay_delivery{
+        color: #838383;
+        font-family: poppins;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .virtual_card{
+        background: linear-gradient(72.65deg, #2B455E 44.36%, rgba(6, 82, 152, 0.3) 95.76%);
+        width: 80%;
+        height: 130px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        position: relative;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .checkout_form{
+        width: 100%;
+        height: 369px;
+       
+    }
+    .btn_container{
+        flex-direction: column;
+    }
+
+    .btn_container > button{
+        margin-bottom: 10px;
+        margin-top: 20px;
+        width: 85%;
+        background-color: red;
+     
+    }
+    .btn_container button:nth-child(2){
+        margin-bottom: 20px;
+        width: 85%;
+    }
+    .product_description img{
+       width: 100%;
+    }
+    .input_control{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .input_control div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input_control label{
+        display: block;
+        margin-bottom: 5px;
+        color:  #28293D;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 500;
+        width: 70%;
+    }
+    .acc_no{
+        width: 70%;
+        height: 45px;
+        background-color: #F1F1F1;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding: 5px;
+    }
+    .pay_obj button{
+        width:  220px;
+        height: 45px;
+        font-family: lato;
+        border-radius: 5px;
+        background-color: #679FD2;
+        color: #fff;
+        border: none;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+

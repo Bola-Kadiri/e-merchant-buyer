@@ -1,0 +1,191 @@
+ .confirm_content{
+    width: 532px;
+    height: 439px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  position: relative;
+
+}
+.confirm_content img:first-child{
+   margin: 15px 0px;
+}
+ .confirm_content img:last-child{
+   position: absolute;
+   right: 30px;
+   top: 40px;
+   cursor: pointer;
+ }
+ 
+ .confirm{
+    height: 983px;
+    width: 100%;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .confirm_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .confirm_form{
+    margin-top: 20px;
+    width: 80%;
+ }
+
+
+ .confirm_form button{
+    width: 220px;
+    height: 45px;
+    color: #fff;
+    background: #679FD2;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+ }
+
+ .confirm_date{
+   
+
+    color:black
+ }
+
+ 
+ 
+  
+
+  .confirm_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    color: black;
+  }
+  .close{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;
+}
+.transaction_sucess{
+    width: 100%;
+    color: #000;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.transaction_sucess p{
+   width: 100%;
+   color: #28293D;
+   text-align: center;
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 32px;
+
+  
+}
+
+
+
+
+.receipt_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.receipt_btn  button:first-child{
+  width: 228.16px;
+  height: 63.07px;
+  background: #FFFFFF;
+  border: 1px solid #679FD2;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-right: 15px;
+
+}
+.receipt_btn  button:last-child{
+    width: 228.16px;
+    height: 63.07px;
+    background: #FFFFFF;
+    border: 1px solid #FFD145;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  
+  }
+
+  @media screen and (max-width: 980px){
+   .confirm_content{
+      width: 90%;
+      height: 600px;
+      background-color: #fff;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+  }
+  
+.receipt_btn{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+  .receipt_btn  button:first-child{
+   width: 50%;
+   height: 63.07px;
+   background: #FFFFFF;
+   border: 1px solid #679FD2;
+   border-radius: 10px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 10px;
+   text-align: center;
+   color: #000000;
+ }
+ .receipt_btn  button:last-child{
+     width: 50%;
+     height: 63.07px;
+     background: #FFFFFF;
+     border: 1px solid #FFD145;
+     border-radius: 10px;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 13px;
+     line-height: 20px;
+     margin-top: 20px;
+     text-align: center;
+     color: #000000;
+   
+   }
+ 
+  }

@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +28,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -22,47 +40,80 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+} */
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+html {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
 }
+body {
+  background-color: #fff;
+  font-size: 1rem;
+}
+:root {
+  --white: #fff;
+  /** Light Blue Color Scheme */
+  --light-blue-10: #e1ecf6;
+  --light-blue-20: #ccdff0;
+  --light-blue-30: #b3cfe9;
+  --light-blue-40: #9abfe1;
+  --light-blue-50: #80afda;
+  --light-blue-base: #679fd2;
+  --light-blue-60: #5685af;
+  --light-blue-70: #456a8c;
+  --light-blue-80: #345069;
+  --light-blue-90: #223456;
+  --light-blue-100: #15202a;
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+  /** Gray Color Scheme **/
+  --gray-10: #cccccc;
+  --gray-20: #aaaaaa;
+  --gray-30: #808080;
+  --gray-40: #555555;
+  --gray-50: #2a2a2a;
+  --gray-base: #000000;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  /** Lemon Color Scheme **/
+  --lemon-10: #f2fef0;
+  --lemon-20: #e9fde6;
+  --lemon-30: #dffdda;
+  --lemon-40: #dffdda;
+  --lemon-50: #c9fbc1;
+  --lemon-base: #befab4;
+  --lemon-70: #7fa778;
+  --lemon-80: #5f7d5a;
+  --lemon-90: #3f533c;
+  --lemon-100: #263224;
+
+  /* Light Purple Color Scheme **/
+  --purple-10: #fbf2ff;
+  --purple-20: #f8e9ff;
+  --purple-30: #f5deff;
+  --purple-40: #f1d3ff;
+  --purple-50: #eec8ff;
+  --purple-base: #eabdff;
+  --purple-60: #c39ed5;
+  --purple-70: #9c7eaa;
+  --purple-80: #755f80;
+  --purple-90: #4e3f55;
+  --purple-100: #2f2633;
+
+  --dark-blue-10: #d4d5dd;
+  --dark-blue-20: #b8b9c6;
+  --dark-blue-30: #9596aa;
+  --dark-blue-40: #71728d;
+  --dark-blue-50: #4e4f71;
+  --dark-blue-base: #2a2c54;
+  --dark-blue-60: #232546;
+  --dark-blue-70: #1c1d38;
+  --dark-blue-80: #15162a;
+  --dark-blue-90: #0e0f1c;
+  --dark-blue-100: #080911;
+  --dark-blue-150: #244665;
 }

@@ -1,0 +1,43 @@
+@media screen and (min-width: 1000px) {
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .left span {
+    display: block;
+    color: var(--gray-50);
+    font-size: 1.5rem;
+    font-style: normal;
+  }
+
+  .container {
+    height: 90px;
+    padding: 1.5rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav_links {
+    display: flex;
+    align-self: center;
+    gap: 2.6rem;
+  }
+  .nav_link_active a,
+  .nav_link_not_active a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    transition: all 0.5s ease-in;
+  }
+  .nav_link_active a {
+    color: var(--light-blue-base);
+    transition: all 0.5s ease-in;
+    transform: scale(1.02);
+    font-weight: 600;
+  }
+  .nav_link_not_active a {
+    color: var(--gray-50);
+    transition: all 0.5s ease-in;
+  }
+}

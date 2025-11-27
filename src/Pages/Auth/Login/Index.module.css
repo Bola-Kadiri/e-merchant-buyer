@@ -1,0 +1,86 @@
+.input_group label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+.input_group:not(:first-of-type) {
+  margin-top: 1.7rem;
+}
+.form {
+  margin: 2rem 0 1rem 0;
+}
+.header h1 {
+  color: var(--light-blue-base);
+  text-align: center;
+  margin: 2rem 0;
+}
+.header span {
+  display: block;
+  text-align: center;
+  font-family: "lato";
+  color: #28293d;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}
+.signup_link {
+  color: var(--light-blue-base);
+  margin-left: 0.3rem;
+}
+.bottom span {
+  display: block;
+  font-size: 1.08rem;
+  color: #28293d;
+}
+.bottom p {
+  padding: 1.2rem 0;
+  text-align: center;
+  color: #28293d;
+}
+.icon_wrapper {
+  height: 45px;
+  width: 47px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.other_login_options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.1rem 0;
+}
+
+.facebook_icon {
+  color: rgb(34, 34, 189);
+}
+.google_icon,
+.facebook_icon,
+.apple_icon {
+  font-size: 2rem;
+}
+.right img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+    padding: 4rem 6rem;
+    gap: 3rem;
+  }
+  .container .left {
+    flex-grow: 4;
+  }
+  .container .right {
+    flex-grow: 2;
+  }
+}

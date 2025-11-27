@@ -1,0 +1,181 @@
+
+    .container {
+      background-color: #f2f2f2;
+      padding: 3rem 5rem 5.5rem 5rem;
+    }
+    .question_highlight,
+    .question_highlight_active {
+      padding: 4rem;
+      margin: 0;
+      list-style-type: none;
+    }
+  
+    .question {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .question_highlight li h2,
+    .question_highlight_active li h2 {
+      font-size: 1rem;
+      color: var(--gray-60);
+      font-weight: 500;
+      font-family: "Poppins";
+    }
+  
+    .question_container {
+      height: auto;
+      background-color: var(--white);
+      width: 950px;
+      margin: 0 auto;
+      border-radius: 10px;
+      position: relative;
+    }
+  
+    .question_highlight,
+    .question_highlight_active {
+      animation-name: Question_Highlight;
+      animation-timing-function: ease-in-out;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+      height: 100%;
+    }
+    @keyframes Question_Highlight {
+      0% {
+        right: 0;
+        opacity: 0;
+      }
+      100% {
+        right: 10rem;
+        opacity: 1;
+      }
+    }
+  
+    .header span {
+      display: block;
+      color: var(--gray-40);
+      font-size: 1.1rem;
+      font-family: "Poppins";
+      white-space: nowrap;
+      font-weight: 500;
+    }
+    .header span {
+      display: block;
+      white-space: nowrap;
+      margin-bottom: 0.47rem;
+      padding: 2rem 0 0rem 0;
+      margin: 0;
+    }
+    .header h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: var(--gray-40);
+      font-weight: 600;
+      padding: 0 0 1.2rem 0;
+      margin: 0;
+    }
+    .plus_icon {
+      color: var(--light-blue-base);
+      font-size: 1.7rem;
+      transition: all 3s ease-in;
+    }
+    .header h1 span {
+      white-space: nowrap;
+      display: inline-block;
+      font-size: 2rem;
+      color: var(--light-blue-base);
+      font-weight: 600;
+    }
+    .question_content,
+    .question_content_active {
+      display: flex;
+      gap: 1rem;
+      padding: 0.5rem 0;
+      transition: all 0.4s ease-in-out;
+    }
+    .question_content {
+      display: none;
+    }
+    .question_highlight li {
+      position: relative;
+      padding: 1rem 0;
+      transition: all 0.5s ease-in-out;
+    }
+    .question_highlight li:not(:first-of-type) {
+      margin: 1rem 0;
+    }
+    .question_highlight_active li:not(:first-of-type) {
+      margin: 5rem 0;
+    }
+    .question_highlight_active li {
+      position: relative;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    .question_highlight li::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0.8px;
+      border-bottom: 1px solid var(--gray-10);
+      transition: all 0.5s ease-in-out;
+      top: 4rem;
+    }
+    .question_highlight_active li::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0.8px;
+      border-bottom: 1px solid var(--gray-10);
+      top: 6.5rem;
+    }
+    .question_content_active li::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0.8px;
+      border-bottom: 1px solid var(--gray-30);
+      transition: all 0.5s ease-in-out;
+      top: 6.5rem;
+    }
+    .question_content_active {
+      animation: Question;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+      position: absolute;
+    }
+    @keyframes Question {
+      0% {
+        opacity: 0;
+        top: 0;
+      }
+      100% {
+        opacity: 1;
+        top: 1.75rem;
+      }
+    }
+    .header {
+      text-align: center;
+    }
+    .question_content span,
+    .question_content_active span {
+      display: inline-block;
+      position: relative;
+    }
+    .question_content p,
+    .question_content_active p {
+      color: var(--gray-40);
+      line-height: 1.45;
+      font-size: 1.05rem;
+      max-width: 650px;
+    }
+    .question_content span::before,
+    .question_content_active span::before {
+      position: absolute;
+      display: inline-block;
+      content: "";
+      height: 45px;
+      border-left: 2px solid var(--light-blue-base);
+    }
+  

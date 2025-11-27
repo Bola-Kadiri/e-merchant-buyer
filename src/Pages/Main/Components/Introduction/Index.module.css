@@ -1,0 +1,118 @@
+.container {
+    width: 100%;
+    padding: 2rem 1.7rem;
+  }
+  
+
+    .container {
+      /* padding: 0 1.2rem; */
+      padding: 1rem 5rem;
+      min-height: 100vh;
+    }
+    .container_fluid_one {
+      background: url("/src/assets/Decoration.svg");
+      background-repeat: no-repeat;
+      object-fit: cover;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .hero_section_one {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 90vh;
+    }
+  
+    .hero_section_left .ellipses_image {
+      position: absolute;
+      top: 34rem;
+      z-index: 10;
+    }
+    .hero_section_left span {
+      color: var(--light-blue-base);
+      font-family: "Poppins";
+      font-weight: 600;
+      display: block;
+      font-size: 1.1rem;
+    }
+  
+    .hero_section_left h1 {
+      color: var(--gray-40);
+      max-width: 600px;
+      line-height: 1.25;
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin: 0.9rem 0;
+      animation-duration: 2.5s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+      animation-delay: 2.5s;
+    }
+  
+    .hero_section_left p {
+      max-width: 500px;
+      font-size: 1.1rem;
+      line-height: 1.55;
+      margin: 1.3rem 0;
+      font-weight: 500;
+      color: var(--gray-30);
+      margin-bottom: 1.6rem;
+    }
+  
+    .hero_btn a {
+      text-decoration: none;
+    }
+    .hero_btn button {
+      border: 0;
+      outline: 0;
+      display: inline-block;
+      padding: 0.85rem 1rem;
+      width: 260px;
+      border-radius: 6px;
+      font-family: "Poppins";
+      color: var(--white);
+      font-weight: 500;
+      font-size: 1.3rem;
+      transition: all 0.5s ease-in;
+      background: linear-gradient(91deg, #2972b5 0.28%, #90e0fc 111.21%), #c4c4c4;
+    }
+    .hero_btn button:hover {
+      transform: scale(1.03);
+      transition: all 0.5s ease-in;
+    }
+  
+    .bg_overlay {
+      border-radius: 10px;
+      height: 240px;
+      width: 100%;
+      background: url("/src/assets/Rectangle.svg"),
+        lightgray 50% / cover no-repeat;
+      filter: blur(10px);
+      background-position: center center;
+      object-fit: cover;
+      position: absolute;
+    }
+    .hero_section_left{
+      width: 45%;
+    }
+    .hero_section_right{
+      position: relative;
+      width: 45%;
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .hero_section_right .img {
+      background: url("/src/assets/Rectangle.svg");
+      width: 320px;
+      height: 340px;
+      position: absolute;
+      border-radius: 10px;
+    
+    }

@@ -1,0 +1,77 @@
+
+    .header span {
+      display: block;
+      margin-bottom: 0.75rem;
+      color: var(--gray-50);
+      font-size: 1.07rem;
+    }
+    .header h1 {
+      color: var(--light-blue-base);
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    .content{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      min-height: 75vh;
+    }
+    .container_fluid_two {
+      background-color: var(--white);
+      min-height: 75vh;
+      padding: 3rem 5rem;
+      width: 100%;
+      
+    }
+    .header {
+      text-align: center;
+      padding: 2rem 0 1rem 0;
+    }
+  
+    .hero_section_two_image img {
+      width: 100%;
+      max-width: 100%;
+      height: 500px;
+      border-radius: 18px;
+    }
+    .hero_section_two {
+      display: grid;
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      height: 550px;
+    }
+  
+    .feature_highlight {
+      display: flex;
+      gap: 1.5rem;
+    }
+    .feature_icon_wrapper {
+      height: 55px;
+      width: 55px;
+      background-color: var(--light-blue-10);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    .feature_icon {
+      font-size: 1.4rem;
+      color: var(--gray-60);
+    }
+    .feature_highlight:not(:first-of-type) {
+      margin-top: 2rem;
+    }
+    .feature h1 {
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+      font-size: 1.24rem;
+      color: var(--gray-40);
+      font-family: "Poppins";
+    }
+    .feature span {
+      display: block;
+      color: var(--gray-30);
+      max-width: 300px;
+      line-height: 1.45;
+    }

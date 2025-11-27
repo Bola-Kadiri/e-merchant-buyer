@@ -1,0 +1,80 @@
+
+.collection{
+    width: 100%;
+    min-height: 90vh;
+    padding: 20px;
+}
+.collection h3{
+    color: black;
+    padding: 10px;
+}
+
+.collection_header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.collection_header ul{
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.other_item{
+    display: flex;
+    align-items: center;
+}
+.other_item p{
+    list-style: none;
+    color: rgba(26, 16, 54, 0.4);
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    margin-right: 5px;
+}
+.collection_header ul li{
+    list-style: none;
+    color: rgba(26, 16, 54, 0.4);
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.collection_content{
+    display: none;
+}
+
+.show{
+
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    color: black
+}
+
+.collection_header ul .tab_button{
+   
+    border-bottom: 3px solid #679FD2;
+    cursor: pointer;
+    color: #679FD2;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.active{
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.active img, .tab_button img{
+    margin-left: 10px;
+    background-color: #008000;
+}
